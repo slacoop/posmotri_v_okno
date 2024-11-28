@@ -63,6 +63,7 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
+  align-self: end;
   gap: 16px;
 }
 
@@ -70,7 +71,6 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  
 }
 
 .result__video {
@@ -84,7 +84,6 @@ ol {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  padding-bottom: 42px;
 }
 
 .search-form__fieldset {
@@ -175,8 +174,9 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
+  align-content: center;
   gap: 26px;
-  margin-bottom: 115px;
+
 }
 
 .title {
